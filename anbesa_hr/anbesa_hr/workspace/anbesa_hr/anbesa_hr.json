@@ -1,0 +1,74 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"DKlqRyU-_o\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Anbesa HR</span>\",\"col\":12}},{\"id\":\"huONiYs4Wp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Application\",\"col\":3}},{\"id\":\"gQhONATWdn\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Certification\",\"col\":4}},{\"id\":\"ujgGapZHot\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"UxfRtHRyvr\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Salary Slip\",\"col\":3}}]",
+ "creation": "2026-10-03 09:42:47.624045",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Anbesa HR",
+ "links": [],
+ "modified": "2026-10-04 14:48:56.011999",
+ "modified_by": "Administrator",
+ "module": "anbesa_hr",
+ "name": "Anbesa HR",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "HR Manager"
+  }
+ ],
+ "sequence_id": 33.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Leave Application",
+   "link_to": "Leave Application",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Salary Slip",
+   "link_to": "Salary Slip",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee",
+   "link_to": "Employee",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee Certification",
+   "link_to": "Employee Certification",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Ethiopian Region",
+   "link_to": "Ethiopian Region",
+   "type": "DocType"
+  }
+ ],
+ "title": "Anbesa HR"
+}

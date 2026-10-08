@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-10-04 16:04:35.412562",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "language",
+  "speaking",
+  "reading",
+  "writing",
+  "listening",
+  "assessment_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "language",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Language",
+   "options": "Language"
+  },
+  {
+   "fieldname": "speaking",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Speaking",
+   "options": "Poor\nFair\nGood\nFluent"
+  },
+  {
+   "fieldname": "reading",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Reading",
+   "options": "Poor\nFair\nGood\nFluent"
+  },
+  {
+   "fieldname": "writing",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Writing",
+   "options": "Poor\nFair\nGood\nFluent"
+  },
+  {
+   "fieldname": "listening",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Listening",
+   "options": "Poor\nFair\nGood\nFluent"
+  },
+  {
+   "fieldname": "assessment_date",
+   "fieldtype": "Date",
+   "label": "Assessment Date"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-10-04 16:26:19.255598",
+ "modified_by": "Administrator",
+ "module": "anbesa_hr",
+ "name": "Employee Language Proficiency",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

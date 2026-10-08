@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-10-04 14:19:17.776378",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "choose_region_section",
+  "ethiopian_region"
+ ],
+ "fields": [
+  {
+   "fieldname": "choose_region_section",
+   "fieldtype": "Section Break",
+   "label": "Choose Region"
+  },
+  {
+   "fieldname": "ethiopian_region",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ethiopian Region",
+   "options": "Addis Ababa (AA / \u12a0\u12f2\u1235 \u12a0\u1260\u1263)\nDire Dawa (DD / \u12f5\u122c\u12f3\u12cb)\nOromia (OR / \u12a6\u122e\u121a\u12eb)\nAmhara (AM / \u12a0\u121b\u122b)\nTigray (TG / \u1275\u130d\u122b\u12ed)\nSidama (SD / \u1232\u12f3\u121b)\nSomali (SM / \u1236\u121b\u120c)\nAfar (AF / \u12a0\u134b\u122d)\nBenishangul-Gumuz (BG / \u1264\u1295\u123b\u1295\u1309\u120d \u1309\u1219\u12dd)\nGambella (GM / \u130b\u121d\u1264\u120b)\nHarari (HR / \u1210\u1228\u122a)\nSouth Ethiopia (SE / \u12f0\u1261\u1265 \u12a2\u1275\u12ee\u1335\u12eb)\nCentral Ethiopia (CE / \u121b\u12d5\u12a8\u120b\u12ca \u12a2\u1275\u12ee\u1335\u12eb)\nSouthwest Ethiopia Peoples (SW / \u12f0\u1261\u1265 \u121d\u12d5\u122b\u1265 \u12a2\u1275\u12ee\u1335\u12eb)",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-10-04 15:35:05.263879",
+ "modified_by": "Administrator",
+ "module": "anbesa_hr",
+ "name": "Ethiopian Region",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

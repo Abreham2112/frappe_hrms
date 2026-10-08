@@ -1,0 +1,116 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-10-04 16:28:59.211796",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "guarantor_full_name",
+  "organization",
+  "job_title",
+  "mobile_number",
+  "region",
+  "sub_city_or_zone",
+  "woreda",
+  "kebele",
+  "house_number",
+  "guarantee_amount_etb",
+  "letter_ref_no",
+  "status",
+  "attachment"
+ ],
+ "fields": [
+  {
+   "fieldname": "guarantor_full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Guarantor Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "organization",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Organization",
+   "reqd": 1
+  },
+  {
+   "fieldname": "job_title",
+   "fieldtype": "Data",
+   "label": "Job Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "region",
+   "fieldtype": "Link",
+   "label": "Region",
+   "options": "Ethiopian Region"
+  },
+  {
+   "fieldname": "sub_city_or_zone",
+   "fieldtype": "Data",
+   "label": "Sub City or Zone"
+  },
+  {
+   "fieldname": "woreda",
+   "fieldtype": "Data",
+   "label": "Woreda"
+  },
+  {
+   "fieldname": "kebele",
+   "fieldtype": "Data",
+   "label": "Kebele"
+  },
+  {
+   "fieldname": "house_number",
+   "fieldtype": "Data",
+   "label": "House Number"
+  },
+  {
+   "fieldname": "guarantee_amount_etb",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Guarantee Amount (ETB)"
+  },
+  {
+   "fieldname": "letter_ref_no",
+   "fieldtype": "Data",
+   "label": "Letter Ref No"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Active\nReleased\nRevoked"
+  },
+  {
+   "fieldname": "attachment",
+   "fieldtype": "Attach",
+   "label": "Attachment"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mobile Number",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-10-04 16:54:17.298012",
+ "modified_by": "Administrator",
+ "module": "anbesa_hr",
+ "name": "Employee Guarantor",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

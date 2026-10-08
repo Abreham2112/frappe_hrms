@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-10-04 17:14:05.228741",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "effective_date",
+  "reason_for_change",
+  "new_salary_etb",
+  "increment_amount_etb",
+  "approved_by",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "effective_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Effective Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "reason_for_change",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Reason for Change",
+   "options": "Annual Increment\nPromotion\nCost of Living\nAdjustment\nDemotion"
+  },
+  {
+   "fieldname": "new_salary_etb",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "New Salary (ETB)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "increment_amount_etb",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Increment Amount (ETB)"
+  },
+  {
+   "fieldname": "approved_by",
+   "fieldtype": "Link",
+   "label": "Approved By",
+   "options": "User"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-10-04 17:27:13.004070",
+ "modified_by": "Administrator",
+ "module": "anbesa_hr",
+ "name": "Employee Salary History",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
